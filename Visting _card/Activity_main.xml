@@ -1,0 +1,96 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#008080">
+
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kerala Tourism"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/employee_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muhammed Riyas"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourism Minister"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover the God’s Own Country!"
+        android:textSize="20sp"
+        android:textColor="#FFD700"
+    android:layout_gravity="center"
+    android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore the breathtaking backwaters, lush hill stations, and rich cultural heritage of Kerala."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/popular_attractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Attractions:\n• Alleppey Backwaters\n• Munnar Hill Station\n• Thekkady Wildlife Sanctuary"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 12345 67890"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
